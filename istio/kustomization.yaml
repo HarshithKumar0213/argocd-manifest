@@ -5,7 +5,7 @@ resources:
   - istiod/istiod.yaml
   - ingressgateway/ingressgateway.yaml
   - addons/grafana.yaml
-  - addons/jeager.yaml
+  - addons/jaeger.yaml
   - addons/kiali.yaml
   - addons/loki.yaml
   - addons/prometheus.yaml

@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: istio-jeager
+  name: istio-jaeger
   namespace: argocd
 spec:
   project: default
@@ -11,7 +11,7 @@ spec:
     path: samples/addons
     directory:
       recurse: false
-      include: jeager.yaml
+      include: jaeger.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: istio-system
