@@ -4,3 +4,8 @@ resources:
   - base/istio-base.yaml
   - istiod/istiod.yaml
   - ingressgateway/ingressgateway.yaml
+  - addons/grafana.yaml
+  - addons/jeager.yaml
+  - addons/kiali.yaml
+  - addons/loki.yaml
+  - addons/prometheus.yaml
